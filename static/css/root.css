@@ -1,0 +1,44 @@
+/*
+--svgcolor svg图标的颜色
+--main-bg-color主页背景
+--main-text-color骨干文字颜色
+--gradient标题渐变颜色
+--job-text-color职位文本颜色
+--item-bg-color大小盒子的背景颜色
+--item-hover-color鼠标移入盒子的颜色
+--item-left-title-color项目标题颜色
+--item-left-text-color项目描述颜色
+--footer-text-color底部文本颜色
+--left-tag-item左侧标签背景颜色
+--card-filter卡片模糊的数值
+--back-filter背景模糊的数值
+--back-filter-color全局阴影遮罩
+*/
+
+/*卡片模糊的数值非常吃性能,背景模糊的数值可以模糊也可以不模糊
+0为不模糊,数值越大模糊程度越高
+只有最下面的会生效,也就是将你要设置的主题剪切到最下面
+*/
+
+/*非常吃性能,低配手机会卡顿*/
+/*卡片模糊背景＋黑色透明卡片+白色svg**/
+
+html {
+    --name: 电瓶车女孩;
+    --main_bg_color: url(../img/background/backgroundnice.jpg);
+    /* 背景图片 */
+    --main_text_color: #eee;
+    /* 骨干文字的颜色 */
+    /* --gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%); */
+    --job_text_color: #747bff;
+    --item_bg_color: #00000038;
+    --item_hover_color: #33333338;
+    --item_left_title_color: #ffffff;
+    --item_left_text_color: #ffffff;
+    --footer_text_color: #ffffff;
+    --left_tag_item: rgb(27 42 57 / 20%);
+    --card_filter: 1px;
+    --back_filter: 0px;
+    --back_filter_color: #00000030;
+    --fill: #ffffff;
+}
